@@ -1,5 +1,7 @@
 import { Request, Response } from "express";
-import { Queue } from "../models/Queue";
+import {Queue} from '../models/QueueModel';
+
+// import { Queue } from "../models/Queue";
 
 interface CreateQueueDTO {
   name: string;
